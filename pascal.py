@@ -46,8 +46,6 @@ class Solution:
         # return res
         res = []
         for n in range(1, rows+1):  
-            for m in range(0, rows-n+1):  
-                print(' ', end='')  
             B = 1  
             t = []
             for m in range(1, rows+1):  
